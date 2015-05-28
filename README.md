@@ -2,13 +2,16 @@
 
 ## js-data-asyncstorage [![bower version](https://img.shields.io/bower/v/js-data-asyncstorage.svg?style=flat-square)](https://www.npmjs.org/package/js-data-asyncstorage) [![npm version](https://img.shields.io/npm/v/js-data-asyncstorage.svg?style=flat-square)](https://www.npmjs.org/package/js-data-asyncstorage) [![Circle CI](https://img.shields.io/circleci/project/js-data/js-data-asyncstorage/master.svg?style=flat-square)](https://circleci.com/gh/js-data/js-data-asyncstorage/tree/master) [![npm downloads](https://img.shields.io/npm/dm/js-data-asyncstorage.svg?style=flat-square)](https://www.npmjs.org/package/js-data-asyncstorage) [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/lukasreichart/js-data-asyncstorage/blob/master/LICENSE)
 
-react-native AsyncStorage adapter for [js-data](http://www.js-data.io/).
+[js-data](https://github.com/js-data/js-data) is a very sophisticated data handling library. I'am currently
+developing for [react-native](https://facebook.github.io/react-native/) and wanted
+to unleash the power of js-data on react-native, so I built this adapter which uses react-native's ```AsyncStorage```
+class, instead of a browsers localstorage.
+
+Disclaimer: This is the first version of this adapter. Although the tests are passing there
+may be still some bugs hidden somewhere. If you find any, I'd love to hear from you.
 
 ### API Documentation
 [DSAsyncStorageAdapter](http://www.js-data.io/docs/dsasyncstorageadapter)
-
-### Demo
-[https://js-data-asyncstorage.firebaseapp.com/](https://js-data-asyncstorage.firebaseapp.com/)
 
 ### Project Status
 
@@ -25,7 +28,7 @@ var adapter = new DSAsyncStorageAdapter();
 var store = new JSData.DS();
 store.registerAdapter('asyncstorage', adapter, { default: true });
 
-// "store" will now use the asyncstorage adapter for all async operations
+// "store" will now use the asyncstorage adapter for all operations
 ```
 
 ### Changelog
@@ -37,11 +40,14 @@ store.registerAdapter('asyncstorage', adapter, { default: true });
 - [GitHub](https://github.com/lukasreichart/js-data-asyncstorage) - View the source code for js-data.
 - [Contributing Guide](https://github.com/lukasreichart/js-data-asyncstorage/blob/master/CONTRIBUTING.md)
 
-### Contributing
+### Features
+- Add better testing (tests are currently executed in chrome, because I don't know of an easy way to test in react-native. )
+- Create an example app of how to use js-data with react-native.
+- ...
 
 # Contributing Guide
 
-First, support is handled via the [Mailing List](https://groups.io/org/groupsio/jsdata). Ask your questions there.
+If you have any questions regarding this adapter, feel free to open an issue or write me an email.
 
 When submitting issues on GitHub, please include as much detail as possible to make debugging quick and easy.
 
