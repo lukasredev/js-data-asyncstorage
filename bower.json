@@ -1,0 +1,34 @@
+{
+  "name": "js-data-localstorage",
+  "description": "localStorage adapter for js-data.",
+  "homepage": "http://www.js-data.io/docs/dslocalstorageadapter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-data/js-data-localstorage.git"
+  },
+  "author": {
+    "name": "Jason Dobry",
+    "url": "http://www.pseudobry.com",
+    "email": "jason.dobry@gmail.com"
+  },
+  "main": "./dist/js-data-localstorage.js",
+  "ignore": [
+    ".idea/",
+    ".*",
+    "*.iml",
+    "src/",
+    "lib/",
+    "doc/",
+    "guide/",
+    "coverage/",
+    "Gruntfile.js",
+    "node_modules/",
+    "test/",
+    "package.json",
+    "karma.conf.js",
+    "karma.start.js"
+  ],
+  "dependencies": {
+    "js-data": ">=1.5.7"
+  }
+}
