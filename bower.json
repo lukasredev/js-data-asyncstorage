@@ -1,17 +1,17 @@
 {
-  "name": "js-data-localstorage",
-  "description": "localStorage adapter for js-data.",
-  "homepage": "http://www.js-data.io/docs/dslocalstorageadapter",
+  "name": "js-data-asyncstorage",
+  "description": "js-data Adapter for react-native AsyncStorage",
+  "homepage": "http://www.js-data.io/docs/dsasyncstorageadapter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/js-data/js-data-localstorage.git"
+    "url": "https://github.com/lukasreichart/js-data-asyncstorage.git"
   },
   "author": {
-    "name": "Jason Dobry",
-    "url": "http://www.pseudobry.com",
-    "email": "jason.dobry@gmail.com"
+    "name": "Lukas Reichart",
+    "url": "http://antum.ch",
+    "email": "lukas.reichart@hotmail.com"
   },
-  "main": "./dist/js-data-localstorage.js",
+  "main": "./src/index.js",
   "ignore": [
     ".idea/",
     ".*",
