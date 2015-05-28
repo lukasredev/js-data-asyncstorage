@@ -41,6 +41,7 @@ store.registerAdapter('asyncstorage', adapter, { default: true });
 - [Contributing Guide](https://github.com/lukasreichart/js-data-asyncstorage/blob/master/CONTRIBUTING.md)
 
 ### Features
+- Add Documentation to the official js-data page.
 - Add better testing (tests are currently executed in chrome, because I don't know of an easy way to test in react-native. )
 - Create an example app of how to use js-data with react-native.
 - ...
